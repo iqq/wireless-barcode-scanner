@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Wireless Barcode Scanner</string>
+    <string name="menuSettings">Settings</string>
+    <string name="batchScan">Batch scan</string>
+    <string name="descBatchScan">Scan mutliple barcodes at once</string>
+    <string name="defaultPort">1234</string>
+	<string name="port">Port</string>
+	<string name="portDesc">Set port where application should listen on</string>
+	<string name="menuStartScanning">Start scanning</string>
+	<string name="noWifiTitle">No WiFi activated</string>
+	<string name="noWifiMessage">Please activate WiFi and restart the app</string>
+	<string name="ipAddr">IP address</string>
+	<!-- <string name="connStatus">Connection status</string> -->
+</resources>

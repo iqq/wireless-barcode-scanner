@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <CheckBoxPreference
+        android:key="batchScan"
+        android:title="@string/batchScan"
+        android:summary="@string/descBatchScan"/>
+    
+    <EditTextPreference
+        android:key="port"
+        android:title="@string/port"
+        android:summary="@string/portDesc"
+		android:text="@string/defaultPort"
+        android:maxLength="5"
+        android:inputType="number"/>
+    
+</PreferenceScreen>
